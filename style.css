@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Spline+Sans+Mono:wght@400;600&display=swap');
+ 
+html{
+    font-family: Roboto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-weight: 500;
+}
+
+body{
+    margin: 0 auto;
+}
+
+.header{
+    height: 200px;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.header__ava{
+    border-radius: 50%;
+    height: 150px;
+    position: absolute;
+    top: 125px;
+}
+
+main{
+    margin-top: 100px;
+}
+
+.intro__heading, .intro__profession, .intro__text{
+    text-align: center;
+}
+
+.social-media{
+    height: 50px;
+    width: 50px;
+}
+
+.intro__wrapper{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.media-wrapper{
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    margin: 20px 0px;
+}
+
+.intro__link{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.email{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.email__link{
+    padding: 15px 30px;
+    background-color: #0250f7;
+    color: white;
+    font-weight: 500;
+    border-radius: 100px;
+}
+
+.book-img{
+    height: 300px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.sources{
+    margin-top: 100px;
+}
+
+.book-text{
+    font-weight: 500;
+}
+
+.books{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    margin-bottom: 100px;
+}
+
+.courses{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.course{
+    display: flex;
+    column-gap: 50px;
+    margin-bottom: 50px;
+}
+
+.course-title{
+    color: orange;
+}
+
+.course-button{
+    margin-top: 90px;
+   
+}
+
+.course-link{
+    background-color: #0250f7;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 100px;
+    font-weight: 500;
+}
+
+.center{
+    text-align: center;
+}
+
+.phone{
+    font-size: 50px;
+}
+
+footer{
+    margin: 150px;
+}
+
+.gallery{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.gallery__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 30px;
+    margin: 100px;
+}
+
+.back{
+    font-size: 25px;
+    font-weight: 500;
+    position: fixed;
+    left: 15%;
+    top: 20%;
+}
+
+h2{
+   display: none; 
+}
